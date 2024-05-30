@@ -1,0 +1,193 @@
+@media only screen and (min-width: 1024px) {
+  .form_section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .form_logo {
+    width: 7%;
+    position: absolute;
+    top: 0;
+    left: 50;
+    border-radius: 10px;
+  }
+  .form_section form {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 60px;
+    box-shadow: 10px 10px #1fc2ff ;
+    background-color: #154594;
+  }
+  .table_form--register {
+    border-spacing: 30px;
+  }
+  .table_form--register tr td {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+  }
+  .table_form--register tr td input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #1fc2ff;
+    width: 300px;
+    outline: none;
+  }
+
+  .form_select {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid #1fc2ff;
+  }
+  .form_button {
+    display: block;
+    margin: 0 auto;
+    background-color: #1fc2ff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border: #1fc2ff solid 2px;
+    cursor: pointer;
+    transition-duration: 0.8s;
+  }
+  .form_button:hover {
+    transform: scale(1.1);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* for tablet */
+    .form_section {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    .form_logo {
+      width: 15%;
+      position: absolute;
+      top: 0;
+      left: 50;
+      border-radius: 10px;
+    }
+    .form_section form {
+      margin-top: 30px;
+      border-radius: 20px;
+      padding: 60px;
+      background-color: #154594;
+    }
+    .table_form--register {
+      border-spacing: 30px;
+    }
+    .table_form--register tr td {
+      padding-right: 10px;
+      padding-left: 10px;
+      color: white;
+      font-weight: 700;
+      font-size: x-large;
+    }
+    .table_form--register tr td input {
+      padding: 10px;
+      border-radius: 20px;
+      border: 3px solid #1fc2ff;
+      width: 300px;
+      outline: none;
+    }
+  
+    .form_select {
+      width: 300px;
+      border-radius: 20px;
+      padding: 10px;
+      border: 3px solid #1fc2ff;
+    }
+    .form_button {
+      display: block;
+      margin: 0 auto;
+      background-color: #1fc2ff;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 900;
+      border: #1fc2ff solid 2px;
+      cursor: pointer;
+      transition-duration: 0.8s;
+    }
+    .form_button:hover {
+      transform: scale(1.1);
+    }
+  }
+@media only screen and (max-width: 600px) {
+  /* for mobile */
+  .form_section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    position: relative;
+  }
+  .form_logo {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 50;
+    border-radius: 10px;
+  }
+  .form_section form {
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #154594;
+  }
+  .table_form--register {
+    border-spacing: 20px;
+  }
+  .table_form--register tr td {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    font-weight: 700;
+    font-size:medium;
+  }
+  .table_form--register tr td input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #1fc2ff;
+    outline: none;
+  }
+
+  .form_select {
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid #1fc2ff;
+  }
+  .form_button {
+    display: block;
+    margin: 0 auto;
+    background-color: #1fc2ff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    border: #1fc2ff solid 2px;
+    cursor: pointer;
+    transition-duration: 0.8s;
+  }
+  .form_button:hover {
+    transform: scale(1.1);
+  }
+}

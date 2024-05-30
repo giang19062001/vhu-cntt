@@ -1,0 +1,215 @@
+@media only screen and (min-width: 1024px) {
+
+.major_section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.major_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 80px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.major_box:nth-child(odd){
+   background-color: #d8f5ff;
+}
+
+.major_image{
+    width:35%;
+    border-radius: 10px;
+    border: #1FC2FF 2px solid;
+    transition-duration: 1s;
+    cursor: pointer;
+
+}
+.major_image:hover{
+    transform: translateY(-20px);    
+}
+
+.major_title{
+    font-size: xx-large;
+    color: #154594;
+}
+.major_title2{
+    margin-top: 5px;
+    font-size: large;
+    color: #154594;
+}
+.major_text{
+    margin-top: 20px;
+    text-align: justify;
+}
+.major_box--child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.major_box--price{
+    color: red;
+    font-size: x-large;
+}
+.major_box--button{
+    background-color: #1FC2FF;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px #1FC2FF;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.major_box--button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* for tablet */
+
+    .major_section{
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 40px;    
+    }
+    .major_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 80px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .major_box:nth-child(odd){
+       background-color: #d8f5ff;
+    }
+    
+    .major_image{
+        width:35%;
+        border-radius: 10px;
+        border: #1FC2FF 2px solid;
+        transition-duration: 1s;
+    
+    }
+    .major_image:hover{
+        transform: translateY(-20px);    
+    }
+    
+    .major_title{
+        font-size: x-large;
+        color: #154594;
+    }
+    .major_title2{
+        margin-top: 5px;
+        font-size: large;
+        color: #154594;
+    }
+    .major_text{
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .major_box--child{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .major_box--price{
+        color: red;
+        font-size: x-large;
+    }
+    .major_box--button{
+        background-color: #1FC2FF;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 3px 4px #1FC2FF;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+    }
+    .major_box--button:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* for mobile */
+    
+.major_section{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.major_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.major_box:nth-child(odd){
+   background-color: #d8f5ff;
+}
+
+.major_image{
+    width:100%;
+    border-radius: 10px;
+    border: #1FC2FF 2px solid;
+    transition-duration: 1s;
+    order: 0
+}
+.major_box div{
+    order :1
+}
+.major_image:hover{
+    transform: translateY(-20px);    
+}
+
+.major_title{
+    font-size: large;
+    color: #154594;
+}
+.major_title2{
+    margin-top: 5px;
+    font-size: medium;
+    color: #154594;
+}
+.major_text{
+    margin-top: 20px;
+    text-align: justify;
+}
+.major_box--child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.major_box--price{
+    color: red;
+    font-size: medium;
+}
+.major_box--button{
+    background-color: #1FC2FF;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px #1FC2FF;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.major_box--button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+}

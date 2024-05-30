@@ -1,0 +1,257 @@
+@media only screen and (min-width: 1024px) {
+  .sholarship_section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  .sholarship_title {
+    color: #154594;
+  }
+  .sholarship_text {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .sholarship_box {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+  }
+
+  .sholarship_box_child {
+    width: 22%;
+  }
+  .sholarship_box_child:first-child p:first-child {
+    color: white;
+    padding: 3px;
+
+    border-radius: 100px;
+    background-color: #1fc2ff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.5s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(2) p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: #58c172;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.5s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(3) p:first-child {
+    color: white;
+    padding: 3px;
+
+    border-radius: 100px;
+    background-color: #fcb710;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.5s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(4) p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: rgb(247, 71, 71);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child p:nth-child(2) {
+    color: #154594;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .sholarship_box_child p:last-child {
+    text-align: justify;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* For table: */
+  .sholarship_section {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  .sholarship_title {
+    color: #154594;
+  }
+  .sholarship_text {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .sholarship_box {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .sholarship_box_child {
+    width: 30%;
+  }
+  .sholarship_box_child:first-child p:first-child {
+    color: white;
+    padding: 3px;
+
+    border-radius: 100px;
+    background-color: #1fc2ff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(2) p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: #58c172;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(3) p:first-child {
+    color: white;
+    padding: 3px;
+
+    border-radius: 100px;
+    background-color: #fcb710;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(4) p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: rgb(247, 71, 71);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child p:nth-child(2) {
+    color: #154594;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .sholarship_box_child p:last-child {
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sholarship_section {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  .sholarship_title {
+    color: #154594;
+  }
+  .sholarship_text {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .sholarship_box {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .sholarship_box_child {
+    width: 45%;
+  }
+  .sholarship_box_child:first-child p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: #1fc2ff;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(2) p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: #58c172;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(3) p:first-child {
+    color: white;
+    padding: 3px;
+
+    border-radius: 100px;
+    background-color: #fcb710;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child:nth-child(4) p:first-child {
+    color: white;
+    padding: 3px;
+    border-radius: 100px;
+    background-color: rgb(247, 71, 71);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    animation-delay: 1.25s;
+    animation: InfiniteScale 2.5s ease infinite;
+  }
+  .sholarship_box_child p:nth-child(2) {
+    color: #154594;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .sholarship_box_child p:last-child {
+    text-align: justify;
+  }
+}
+@keyframes InfiniteScale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

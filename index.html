@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khoa công nghệ thông tin - Đại học Văn Hiến</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.ico">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/carousel.css" />
+    <link rel="stylesheet" href="/css/major.css" />
+    <link rel="stylesheet" href="/css/teacher.css" />
+    <link rel="stylesheet" href="/css/facility.css" />
+    <link rel="stylesheet" href="/css/sholarship.css" />
+    <link rel="stylesheet" href="/css/study.css" />
+    <link rel="stylesheet" href="/css/job.css" />
+    <link rel="stylesheet" href="/css/active.css" />
+    <link rel="stylesheet" href="/css/form.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="navbar-logo" src="/images/logo-dvh.png" />
+
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" onclick="openMenu()"/>
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+          <div id="nav-menu" class="nav-menu">
+            <li class="nav-services">
+              <a class="nav_a--title" href="#"
+                >Công nghệ thông tin &ensp;<i class="fa fa-caret-down"></i
+              ></a>
+              <ul class="nav-dropdown">
+                <li onclick="closeMenu()"><a href="#MMT">Mạng máy tính</a></li>
+                <li onclick="closeMenu()"><a href="#ATTT">An toàn thông tin</a></li>
+              </ul>
+            </li>
+            <li class="nav-services">
+              <a class="nav_a--title" href="#"
+                >Khoa học máy tính &ensp;<i class="fa fa-caret-down"></i
+              ></a>
+              <ul class="nav-dropdown">
+                <li onclick="closeMenu()"><a href="#HTTT">Hệ thống thông tin</a></li>
+                <li onclick="closeMenu()"><a href="#CNPM">Công nghệ phần mềm</a></li>
+              </ul>
+            </li>
+            <li class="nav-services">
+              <a class="nav_a--title" href="#"
+                >Thiết kế đồ họa &ensp;<i class="fa fa-caret-down"></i
+              ></a>
+              <ul class="nav-dropdown">
+                <li onclick="closeMenu()"><a href="#ĐHUD">Đồ họa ứng dụng</a></li>
+                <li onclick="closeMenu()"><a href="#ĐHĐPT">Đồ họa đa phương tiện</a></li>
+              </ul>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <section class="carousel-container">
+      <div class="galaxy"></div>
+      <div class="carousel fade">
+        <img class="carousel-image" src="/images/slide1.png" />
+      </div>
+
+      <div class="carousel fade">
+        <img class="carousel-image" src="/images/slide2.png" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="carousel__dot">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </section>
+    <section class="major_section">
+      <div class="major_box" id="MMT">
+        <img class="major_image" src="/images/mmt.png" />
+        <div>
+          <b class="major_title">Mạng máy tính</b>
+          <p class="major_title2">Chuyên ngành: Công nghệ thông tin</p>
+          <p class="major_text">
+            Ngành Mạng máy tính là một ngành nghiên cứu những nguyên lý của
+            mạng, cách thiết kế, xây dựng một hệ thống mạng từ mạng nội bộ cho
+            đến mạng diện rộng có kết nối toàn cầu. Đồng thời ngành Mạng máy
+            tính & Truyền thông dữ liệu cũng cung cấp cho người học những kỹ
+            năng tiên tiến trong việc phát triển ứng dụng trên các hệ thống máy
+            tính nối mạng từ trung đến cao cấp.
+          </p>
+          <div class="major_box--child">
+            <a href="#ĐK" class="major_box--button">ĐĂNG KÝ NGAY</a>
+          </div>
+        </div>
+      </div>
+      <div class="major_box reveal" id="ATTT">
+        <div>
+          <b class="major_title">An toàn thông tin</b>
+          <p class="major_title2">Chuyên ngành: Công nghệ thông tin</p>
+          <p class="major_text">
+            Ngành An toàn thông tin là một ngành rất hấp dẫn những ai muốn tìm
+            hiểu chuyên sâu về mạng, để bảo vệ người dùng và ứng dụng mạng.
+            Những chuyên gia ATTT giống như những chiến sỹ tiên phong trên không
+            gian mạng đem lại sự yên bình cho người sử dụng cũng như sự hoạt
+            động an toàn và thông suốt của mạng máy tính.
+          </p>
+          <div class="major_box--child">
+            <a href="#ĐK" class="major_box--button">ĐĂNG KÝ NGAY</a>
+          </div>
+        </div>
+        <img class="major_image" src="/images/attt.png" />
+      </div>
+      <div class="major_box reveal" id="CNPM">
+        <img class="major_image" src="/images/httt.png" />
+        <div>
+          <b class="major_title">Công nghệ phần mềm</b>
+          <p class="major_title2">Chuyên ngành: Khoa học máy tính</p>
+          <p class="major_text">
+            Công nghệ phần mềm là chuyên ngành nghiên cứu về hệ thống kỹ thuật,
+            phần mềm máy tính. Cụ thể, ngành học này tập trung nghiên cứu về các
+            hạ tầng phần mềm, cơ sở dữ liệu cũng như sự phát triển của các ứng
+            dụng và hệ thống. Ngành tập trung vào việc xây dựng các ứng dụng
+            giúp nâng cao hiệu quả hoạt động của các doanh nghiệp và chất lượng
+            đời sống con người.
+          </p>
+          <div class="major_box--child">
+            <a href="#ĐK" class="major_box--button">ĐĂNG KÝ NGAY</a>
+          </div>
+        </div>
+      </div>
+      <div class="major_box reveal" id="HTTT">
+        <div>
+          <b class="major_title">Hệ thống thông tin</b>
+          <p class="major_title2">Chuyên ngành: Khoa học máy tính</p>
+          <p class="major_text">
+            Ngành Hệ thống thông tin là một ngành đào tạo chuyên sâu về lĩnh vực
+            công nghệ thông tin, bao gồm các lĩnh vực như thiết kế, xây dựng,
+            quản lý và sử dụng các hệ thống thông tin, các mạng máy tính và
+            internet, quản lý dữ liệu, an ninh mạng, trí tuệ nhân tạo và các
+            công nghệ liên quan đến xử lý ngôn ngữ tự nhiên.
+          </p>
+          <div class="major_box--child">
+            <a href="#ĐK" class="major_box--button">ĐĂNG KÝ NGAY</a>
+          </div>
+        </div>
+        <img class="major_image" src="/images/cnpm.png" />
+      </div>
+      <div class="major_box reveal" id="ĐHUD">
+        <img class="major_image" src="/images/dhud.png" />
+        <div>
+          <b class="major_title">Đồ họa ứng dụng</b>
+          <p class="major_title2">Chuyên ngành: Thiết kế đồ họa</p>
+          <p class="major_text">
+            Đồ họa ứng dụng là loại hình nghệ thuật ứng dụng, sản phẩm đồ họa
+            hiện diện ở hầu hết các lĩnh vực từ truyền thông, quảng cáo, giải
+            trí, ngành xuất bản, đặc biệt thiết kế đồ họa đóng vai trò cực kỳ
+            quan trọng trong hoạt động kinh doanh.
+          </p>
+          <div class="major_box--child">
+            <a href="#ĐK" class="major_box--button">ĐĂNG KÝ NGAY</a>
+          </div>
+        </div>
+      </div>
+      <div class="major_box reveal" id="ĐHĐPT">
+        <div>
+          <b class="major_title">Đồ họa đa phương tiện</b>
+          <p class="major_title2">Chuyên ngành: Thiết kế đồ họa</p>
+          <p class="major_text">
+            Đồ họa đa phương tiện là loại hình nghệ thuật ứng dụng, sản phẩm đồ
+            họa hiện diện ở hầu hết các lĩnh vực từ truyền thông, quảng cáo,
+            giải trí, ngành xuất bản, đặc biệt thiết kế đồ họa đóng vai trò cực
+            kỳ quan trọng trong hoạt động kinh doanh.
+          </p>
+          <div class="major_box--child">
+            <a href="#ĐK" class="major_box--button">ĐĂNG KÝ NGAY</a>
+          </div>
+        </div>
+        <img class="major_image" src="/images/dhdpt.png" />
+      </div>
+    </section>
+    <section class="teacher_section reveal">
+      <h1 class="teacher_title">ĐỘI NGŨ GIẢNG VIÊN</h1>
+      <p class="teacher_text">
+        Khoa Công nghệ thông tin trường Đại học Văn Hiến có hơn
+        <b style="color: #154594">23 năm</b> hình thành và phát triển cùng với
+        trường Đại học Văn Hiến. Với đội ngũ giảng viên cơ hữu trong việc giảng
+        dạy và đào tạo, Khoa còn có một đội ngũ giảng viên thỉnh giảng có trình
+        độ chuyên môn và kinh nghiệm cao (học hàm Tiến sĩ, Thạc sĩ…), nhiệt tình
+        và tâm huyết với nghề từ các trường Đại học có uy tín trong thành phố và
+        một số chuyên gia đến từ các doanh nghiệp.
+      </p>
+      <div class="teacher_box--image">
+        <img class="teacher_image" src="/images/teacher1.png" />
+        <img class="teacher_image" src="/images/teacher2.png" />
+        <img class="teacher_image" src="/images/teacher3.png" />
+      </div>
+    </section>
+    <section class="facility_section reveal">
+      <h1 class="facility_title">CƠ SỞ VẬT CHẤT - PHÒNG MÁY</h1>
+      <p class="facility_text">
+        Trường được trang bị các thiết bị tân tiến nhất, phòng máy cao cấp hỗ
+        trợ cho việc học công nghệ thông tin. Ngoài các cơ sở trải dài trong
+        thành phố như cơ sở quận Tân Phú, Tân Bình thì Campus của trường Đại học
+        Văn Hiến sẽ là nơi mà bạn trải nghiệm môi trường học hiện đại nhất.
+      </p>
+      <div class="facility_box--image">
+        <img class="facility_image" src="/images/phongmay1.jpg" />
+        <img class="facility_image" src="/images/phongmay2.jpg" />
+        <img class="facility_image" src="/images/phongmay3.jpg" />
+      </div>
+    </section>
+    <section class="study_section reveal">
+      <h1 class="study_title">CHẤT LƯỢNG HỌC TẬP</h1>
+      <p class="study_text">
+        Trường Đại học Văn Hiến không chỉ chú trọng đào tạo sinh viên vững chắc
+        kiến thức, kỹ năng chuyên môn, nghiệp vụ theo xu hướng hội nhập và đáp
+        ứng yêu cầu ngày càng khắt khe của tổ chức/doanh nghiệp mà còn đào tạo
+        nên những sinh viên có năng lực giải quyết khó khăn, tinh thần làm chủ
+        bản thân, có trách nhiệm với gia đình, xã hội. Không chỉ thế, nhà trường
+        còn tạo ra trung tâm chăm sóc người học nhằm giải đáp hỗ trợ sinh viên
+        ngay lập tức khi gặp khó khăn trong việc học.
+      </p>
+      <div class="study_box--image">
+        <div class="study_image_container">
+          <img class="study_image" src="/images/study1.jpeg" />
+          <div class="study_image_title">Môi trường học tập</div>
+        </div>
+        <div class="study_image_container">
+          <img class="study_image" src="/images/study3.jpg" />
+          <div class="study_image_title">Trung tâm chăm sóc người học</div>
+        </div>
+        <div class="study_image_container">
+          <img class="study_image" src="/images/study2.png" />
+          <div class="study_image_title">Thư viện</div>
+        </div>
+      </div>
+    </section>
+    <section class="sholarship_section reveal">
+      <h1 class="sholarship_title">HỌC BỔNG</h1>
+      <p class="sholarship_text">
+        Ngoài việc luôn tạo điều kiện tốt nhất về môi trường học tập thì mỗi năm
+        nhà trường đều mang đến các chính sách học bổng đa dạng từ Nhà trường,
+        Doanh nghiệp và Học bổng cựu sinh viên… với tổng trị giá 30 tỷ đồng.
+      </p>
+      <div class="sholarship_box">
+        <div class="sholarship_box_child">
+          <p>1</p>
+          <p>Học bổng chắp cánh ước mơ</p>
+          <p>
+            với trị giá 130 triệu/suất được dành tặng cho các bạn học sinh lớp
+            12 xếp loại giỏi trở lên, Thuộc hộ nghèo/ cận nghèo, có ý chí vươn
+            lên trong học tập. đăng ký xét trúng tuyển vào trường Đại học Văn
+            Hiến
+          </p>
+        </div>
+        <div class="sholarship_box_child">
+          <p>2</p>
+          <p>Học bổng khuyến khích học tập</p>
+          <p>
+            Với trị giá 03 triệu đến 05 triệu đồng/suất dành cho các bạn có
+            thành tích học tập Xuất sắc và xếp loại Giỏi, xét theo tỉ lệ 7% tổng
+            sinh viên của Khoa Công nghệ thông tin - Đại học Văn Hiến
+          </p>
+        </div>
+        <div class="sholarship_box_child">
+          <p>3</p>
+          <p>Học bổng Hùng Hậu</p>
+          <p>
+            với trị giá từ 15% đến 50% học phí toàn khóa dành cho các bạn sinh
+            viên có người thân là Giảng viên, Cán bộ nhân viên trường Đại học
+            Văn Hiến, cán bộ nhân viên của HungHau Holdings.
+          </p>
+        </div>
+        <div class="sholarship_box_child">
+          <p>4</p>
+          <p>Học bổng HHHF</p>
+          <p>
+            với trị giá từ 30% đến 70% học phí toàn khóa dành cho các bạn sinh
+            viên là con/em ruột của anh hùng có công trong thời kỳ kháng chiến,
+            thương binh, dân tộc hiểu số, mồ côi cha hoặc mẹ, bị tàn tật/khuyết
+            tật.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="job_section reveal">
+      <h1 class="job_title">CƠ HỘI NGHỀ NGHIỆP</h1>
+      <p class="job_text">
+        Không chỉ được trang bị kiến thức và kỹ năng cần thiết, sinh viên Văn
+        Hiến còn được hậu thuẫn bởi một mạng lưới hơn 300 nơi có thể tới làm
+        việc ngay khi tốt nghiệp, thậm chí nhiều sinh viên Văn Hiến còn có thể
+        vừa đi học vừa đi làm. Đặc biệt không thể không kể đến sự hậu thuẫn vững
+        chắc từ hơn 30 doanh nghiệp nội bộ thuộc HungHau Holdings, những môi
+        trường tuyệt vời để các bạn sinh viên học hỏi và phát triển sự nghiệp.
+      </p>
+      <div class="job_box--image--hh">
+        <img class="job_image_hh" src="/images/job3.png" />
+        <img class="job_image_hh" src="/images/job4.png" />
+        <img class="job_image_hh" src="/images/job5.png" />
+        <img class="job_image_hh" src="/images/job6.png" />
+        <img class="job_image_hh" src="/images/job7.png" />
+        <img class="job_image_hh" src="/images/job8.png" />
+      </div>
+      <a href="https://htdn.vhu.edu.vn/" class="job_link"
+        >Trung tâm hợp tác doanh nghiệp trường Đại học Văn Hiến</a
+      >
+
+      <p class="job_text">
+        Bên cạnh đó, ngày hội việc làm được tổ chức thường niên của trường Đại
+        học Văn Hiến cũng là địa chỉ đáng tin cậy để các bạn sinh viên có thể
+        tìm cho mình một công việc phù hợp. Ước tính, ngày hội mang tới hơn 2000
+        việc làm từ các doanh nghiệp uy tín trên khắp địa bàn thành phố Hồ Chí
+        Minh.
+      </p>
+      <div class="job_box--image">
+        <img class="job_image" src="/images/job1.png" />
+        <img class="job_image" src="/images/job2.jpg" />
+        <img class="job_image" src="/images/job9.jpg" />
+      </div>
+    </section>
+    <section class="active_section reveal">
+      <h1 class="active_title">CÁC HOẠT ĐỘNG THƯỜNG NIÊN</h1>
+      <p class="active_text">
+        Trường luôn cập nhập đổi mới tạo ra sân chơi cũng như môi trường hỗ trợ
+        cho sinh viên khoa công nghệ thông tin như: Các khóa workshop với các
+        doanh nghiệp IT, livestream giải đáp thắc mắc, các cuộc thi lập trình
+        với giải thưởng hấp dẫn.
+      </p>
+      <div class="active_box--image">
+        <div class="active_image_container">
+          <img class="active_image" src="/images/active1.jpg" />
+          <div class="active_image_title">Hội thi học thuật</div>
+        </div>
+        <div class="active_image_container">
+          <img class="active_image" src="/images/active2.jpg" />
+          <div class="active_image_title">Lễ tốt nghiệp</div>
+        </div>
+        <div class="active_image_container">
+          <img class="active_image" src="/images/active3.png" />
+          <div class="active_image_title">Livestream giải đáp thắc mắc</div>
+        </div>
+        <div class="active_image_container">
+          <img class="active_image" src="/images/active4.jpg" />
+          <div class="active_image_title">Tham quan doanh nghiệp</div>
+        </div>
+        <div class="active_image_container">
+          <img class="active_image" src="/images/active6.jpg" />
+          <div class="active_image_title">Workshop Blockchain</div>
+        </div>
+        <div class="active_image_container">
+          <img class="active_image" src="/images/active5.png" />
+          <div class="active_image_title">CLB Công nghệ thông tin</div>
+        </div>
+      </div>
+    </section>
+    <section class="form_section reveal" id="ĐK">
+      <img class="form_logo" src="/images/logo.jpg" />
+      <form action="javascript:alert('GỬI THÔNG TIN THÀNH CÔNG');">
+        <table class="table_form--register">
+          <tr>
+            <td><label>Họ tên:</label></td>
+            <td><input type="text" required placeholder="Vui lòng nhập họ và tên" /></td>
+          </tr>
+          <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" required placeholder="Vui lòng nhập Email" /></td>
+          </tr>
+          <tr>
+            <td><label>Số điện thoại:</label></td>
+            <td>
+              <input type="number" required placeholder="Vui lòng nhập số điện thoại" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Chuyên ngành:</label></td>
+            <td>
+              <select class="form_select">
+                <optgroup label="Công nghệ thông tin">
+                  <option value="Mạng máy tính">Mạng máy tính</option>
+                  <option value="An toàn thông tin">An toàn thông tin</option>
+                </optgroup>
+                <optgroup label="Khoa học máy tính">
+                  <option value="Hệ thống thông tin">Hệ thống thông tin</option>
+                  <option value="Công nghệ phần mềm">Công nghệ phần mềm</option>
+                </optgroup>
+                <optgroup label="Thiết kế đồ họa">
+                  <option value="Đồ họa ứng dụng">Đồ họa ứng dụng</option>
+                  <option value="Đồ họa đa phương tiện">
+                    Đồ họa đa phương tiện
+                  </option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <button class="form_button">GỬI THÔNG TIN</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer_box">
+        <div class="footer__info">
+          <img class="footer__logo" src="/images/logo-Van-Hien.png" />
+          <table>
+            <tr>
+              <th>Trụ sở chính</th>
+              <td>613 Âu Cơ, Phường Phú Trung, Quận Tân Phú, TP.HCM</td>
+            </tr>
+            <tr>
+              <th>Các cơ sở đào tạo:</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Harmony Campus</th>
+              <td>624 Âu Cơ, Phường 10, Quận Tân Bình, TP. HCM</td>
+            </tr>
+            <tr>
+              <th>HungHau Campus</th>
+              <td>
+                Khu chức năng 13E- Nguyễn Văn Linh, Phong Phú, Nam Thành phố,
+                TP. HCM
+              </td>
+            </tr>
+            <tr>
+              <th>Heart Campus</th>
+              <td>
+                736 - 738 - 740 Điện Biên Phủ, Phường 10, Quận 10, TP. HCM
+              </td>
+            </tr>
+            <tr>
+              <th>myU Campus</th>
+              <td>665 - 667 - 669 Điện Biên Phủ, Phường 1, Quận 3, TP. HCM</td>
+            </tr>
+            <tr>
+              <th>Cơ sở</th>
+              <td>642 Âu Cơ, Phường 10, Quận Tân Bình, TP. HCM</td>
+            </tr>
+          </table>
+        </div>
+        <div
+          data-id="d52aa4a"
+          data-element_type="widget"
+          data-widget_type="google_maps.default"
+        >
+          <iframe
+            width="100%"
+            height="50%"
+            loading="lazy"
+            src="https://maps.google.com/maps?q=%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20V%C4%83n%20Hi%E1%BA%BFn&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
+            title="Đại học Văn Hiến"
+            aria-label="Đại học Văn Hiến"
+          ></iframe>
+        </div>
+      </div>
+      <div class="footerCopyright">
+        <p>
+          Copyright 2023 ©
+          <b
+            ><a class="footerCopyright__a" href="https://vhu.edu.vn/"
+              >Đại học Văn Hiến</a
+            ></b
+          >
+        </p>
+      </div>
+    </footer>
+      <a  href="tel:18001568" id="btnPhone" >
+        <i class="fa fa-phone fa-2x"></i>
+      </a>
+
+    <button onclick="topFunction()" id="btnUp" >
+      <i class="fa fa-arrow-circle-up fa-2x"></i>
+    </button>
+   
+
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/nav.js"></script>
+
+    <script src="/javascript/carousel.js"></script>
+  </body>
+</html>
